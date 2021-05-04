@@ -3,15 +3,16 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "version.json": "6ce6e541ea6755920e21548a6cb27fba",
-"main.dart.js": "7d08b5bcfe6cec59bd2906f9a4677f98",
-"assets/NOTICES": "16c10a071ed1e902cf4d91b9175f37db",
+  "version.json": "406822e15c66b599d2ed163a6e51b435",
+"main.dart.js": "fbddcad939f87d3cda8558433c1e7efe",
+"assets/asset/fonts/plaster/Plaster-Regular.ttf": "3bdb6c45e898b254e76cd6c164850f94",
+"assets/asset/seattle.jpg": "b3497f8c3eac62f0f696e9423be862a0",
+"assets/NOTICES": "be05cbc81bce0d247157def42422b469",
 "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
-"assets/AssetManifest.json": "e9760aff26d7236650b16d3f72345665",
-"assets/assets/preview.png": "84a7314976da474e68875dcf8e35cd1b",
-"assets/FontManifest.json": "7b2a36307916a9721811788013e65289",
-"index.html": "51839f812a32cce7ac40ca488295da30",
-"/": "51839f812a32cce7ac40ca488295da30"
+"assets/AssetManifest.json": "ecb4d39e576209dc5ae70fad278c3df6",
+"assets/FontManifest.json": "f0a8246bfb399b5df0043e73f578e332",
+"index.html": "9c473ce14d9afeb3525b5e9ea752c013",
+"/": "9c473ce14d9afeb3525b5e9ea752c013"
 };
 
 // The application shell files that are downloaded before a service worker can
