@@ -14,8 +14,8 @@ const RESOURCES = {
 "assets/AssetManifest.json": "2efbb41d7877d10aac9d091f58ccd7b9",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "b14fcf3ee94e3ace300b192e9e7c8c5d",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
-"index.html": "5dff930017c25deb3a41c5cccbb5a09a",
-"/": "5dff930017c25deb3a41c5cccbb5a09a"
+"index.html": "7bbc72708e4176b7a718b77de5fe78c8",
+"/": "7bbc72708e4176b7a718b77de5fe78c8"
 };
 
 // The application shell files that are downloaded before a service worker can
