@@ -3,14 +3,14 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "version.json": "29ea889e856513e5e767cb283d0e1307",
-"main.dart.js": "d77fd5489af3e2beb0bce40e654b8237",
-"assets/NOTICES": "b3e97926737cd86e3f4c29e67b9e247d",
-"assets/AssetManifest.json": "e9760aff26d7236650b16d3f72345665",
-"assets/assets/preview.png": "6b10c71454f2d3eb2d2d867c656607ef",
-"assets/FontManifest.json": "d751713988987e9331980363e24189ce",
+  "main.dart.js": "e56bb29d0267b2ab3bb0bbf0523e0d56",
 "index.html": "51839f812a32cce7ac40ca488295da30",
-"/": "51839f812a32cce7ac40ca488295da30"
+"/": "51839f812a32cce7ac40ca488295da30",
+"assets/NOTICES": "ea88cc29d3ceacad62b78d76cba06061",
+"assets/FontManifest.json": "d751713988987e9331980363e24189ce",
+"assets/assets/preview.png": "6b10c71454f2d3eb2d2d867c656607ef",
+"assets/AssetManifest.json": "e9760aff26d7236650b16d3f72345665",
+"version.json": "29ea889e856513e5e767cb283d0e1307"
 };
 
 // The application shell files that are downloaded before a service worker can
@@ -28,7 +28,7 @@ self.addEventListener("install", (event) => {
   return event.waitUntil(
     caches.open(TEMP).then((cache) => {
       return cache.addAll(
-        CORE.map((value) => new Request(value + '?revision=' + RESOURCES[value], {'cache': 'reload'})));
+        CORE.map((value) => new Request(value, {'cache': 'reload'})));
     })
   );
 });
